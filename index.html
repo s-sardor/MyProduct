@@ -1,0 +1,507 @@
+<!DOCTPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MyProduct</title>
+        <link rel="stylesheet" href="bootstrap/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+
+    <body>
+
+        <!-- header -->
+        <header>
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-12 col-xl-4 d-flex align-items-center justify-content-between">
+                        <span class="header-logo d-flex align-items-center">
+                            <img src="image/logo-icon.svg" alt="image">
+                            <h1>Product</h1>
+                        </span>
+                        <ul class="burger-menu d-flex d-xl-none align-items-center">
+                            <li>
+                                <a href="#" class="theme-btn-mobile"><img src="image/theme-icon.svg" alt="icon"></a>
+                            </li>
+                            <li><a href="#"><i class="bi bi-list"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-8 d-none d-xl-flex align-items-center justify-content-end">
+                        <ul class="header-nav d-flex align-items-center">
+                            <li><a href="#" class="active">Product</a></li>
+                            <li><a href="#">Customers</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Resources</a></li>
+                            <li><a href="#" class="btn-primary-outline">Sign In</a></li>
+                            <li><a href="#" class="btn-primary-dark">Sign Up</a></li>
+                            <li>
+                                <a href="#" class="theme-btn"><img src="image/theme-icon.svg" alt="icon"></a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+        </header>
+
+        <script>
+            themeBtn = document.querySelector('.theme-btn');
+            themeBtn.addEventListener('click', function () {
+                document.body.classList.toggle('dark');
+            })
+            themeBtnMobile = document.querySelector('.theme-btn-mobile');
+            themeBtnMobile.addEventListener('click', function () {
+                document.body.classList.toggle('dark');
+            })
+        </script>
+
+        <!-- main -->
+        <main>
+
+            <!-- hero -->
+            <section id="hero">
+                <div class="container">
+                    <div class="row justify-content-between">
+
+                        <div class="col-12 col-lg-6 d-flex align-items-center order-last order-lg-0">
+                            <div class="text-center text-lg-start">
+                                <h1 class="title-xxl mb-18">
+                                    Work at the speed
+                                    of thought
+                                </h1>
+                                <p class="text-xl mb-45">
+                                    Tools, tutorials, design and innovation experts, all in one place! The most
+                                    intuitive way to imagine your next user experience.
+                                </p>
+                                <div class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                                    <a href="#" class="btn-secondary">Get started</a>
+                                    <span class="watch-video d-flex align-items-center">
+                                        <a href="#">
+                                            <i class="bi bi-play-fill"></i>
+                                            <span class="d-inline-block text-lg font-600">Watch the Video</span>
+                                        </a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <img class="w-100 w-lg-50 mb-2 mb-lg-0" src="image/hero.svg" alt="img">
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Product -->
+            <section id="product">
+                <div id="product-title" class="text-center col-8 col-sm-6 col-lg-6 col-xl-4">
+                    <h1 class="title-lg">Product  was Built Specifically 
+                        for You</h1>
+                </div>
+
+                <div class="container">
+                    <div id="product-content" class="row justify-content-between">
+
+                        <div class="product-card col-12 col-md-6 col-lg-3 mb-4 mb-lg-0 text-center text-lg-start">
+                            <img src="image/product-1.svg" alt="icon">
+                            <h3 class="title-sm">First click tests</h3>
+                            <p class="text-lg font-400">While most people enjoy casino gambling,</p>
+                        </div>
+
+                        <div class="product-card col-12 col-md-6 col-lg-3 mb-4 mb-lg-0 text-center text-lg-start">
+                            <img src="image/product-2.svg" alt="icon">
+                            <h3 class="title-sm">Design surveys</h3>
+                            <p class="text-lg font-400">Sports betting, lottery and bingo playing for the fun</p>
+                        </div>
+
+                        <div class="product-card col-12 col-md-6 col-lg-3 mb-4 mb-lg-0 text-center text-lg-start">
+                            <img src="image/product-3.svg" alt="icon">
+                            <h3 class="title-sm">Preference tests</h3>
+                            <p class="text-lg font-400">The Myspace page defines the individual.</p>
+                        </div>
+
+                        <div class="product-card col-12 col-md-6 col-lg-3 mb-4 mb-lg-0 text-center text-lg-start">
+                            <img src="image/product-4.svg" alt="icon">
+                            <h3 class="title-sm">Five second tests</h3>
+                            <p class="text-lg font-400">Personal choices and the overall personality of the person. </p>
+                        </div>
+                        <div  class="product-btn-wrap">
+                            <a href="#" class="btn-secondary">Get started</a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            
+            <div class="container">
+
+                <!-- management -->
+                <div id="management" class="row justify-content-between">
+                    <div class="col-12 col-lg-6 d-flex align-items-center order-last order-lg-0">
+                        <div>
+                            <span class="span-title-lg mb-8">Effortless Validation for</span>
+                            <h2 class="title-lg mb-23">Management</h2>
+                            <p class="text-lg mb-30">
+                                The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. 
+                            </p>
+                            <span class="text-lg font-600 mb-12">Accessory makers</span>
+                            <p class="text-lg mb-25">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                            <span class="text-lg font-600 mb-12">Alterationists</span>
+                            <p class="text-lg">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                        </div>
+                    </div>
+
+                    <img class="w-100 w-lg-50 mb-50 mb-lg-0" src="image/management.svg" alt="img">
+                </div>
+
+                <!-- customer support -->
+                <div id="customer-support" class="row justify-content-between">
+
+                    <img class="w-100 w-lg-50 mb-50 mb-lg-0" src="image/customer.svg" alt="img">
+
+                    <div class="col-12 col-lg-5 d-flex align-items-center">
+                        <div>
+                            <span class="span-title-lg mb-8">Easier decision making for</span>
+                            <h2 class="title-lg mb-23">Customer Support</h2>
+                            <p class="text-lg mb-30">
+                                The Myspace page defines the individual, his or her characteristics, traits, personal choices and the overall personality of the person. 
+                            </p>
+
+                            <div id="customer-support-cards">
+
+                                <div class="customer-spp-card d-flex align-items-center mb-30">
+                                    <img src="image/tickle-1.svg" alt="icon">
+                                    <p class="text-lg mb-0">Never worry about overpaying for your energy again.</p>
+                                </div>
+
+                                <div class="customer-spp-card d-flex align-items-center mb-30">
+                                    <img src="image/tickle-2.svg" alt="icon">
+                                    <p class="text-lg mb-0">We will only switch you to energy companies that we trust and will treat you right</p>
+                                </div>
+
+                                <div class="customer-spp-card d-flex align-items-center">
+                                    <img src="image/tickle-3.svg" alt="icon">
+                                    <p class="text-lg mb-0">We track the markets daily and know where the savings are.</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Collaborative -->
+                <div id="collaborative" class="row justify-content-between">
+                    <div class="col-12 col-lg-6 d-flex align-items-center order-last order-lg-0">
+                        <div>
+                            <span class="span-title-lg mb-8">Optimisation for</span>
+                            <h2 class="title-lg mb-23">Collaborative</h2>
+                            <p class="text-lg mb-30">
+                                Few would argue that, despite the advancements of feminism over the past three decades, women still face a double standard when it comes to their behavior. 
+                            </p>
+                            <span class="text-lg font-600 mb-12">Accessory makers</span>
+                            <p class="text-lg mb-25">While most people enjoy casino gambling, sports betting, lottery and bingo playing for the fun</p>
+                            <span class="text-lg font-600 mb-12">Alterationists</span>
+                            <p class="text-lg">If you are looking for a new way to promote your business that won’t cost you more money, </p>
+                        </div>
+                    </div>
+
+                    <img class="w-100 w-lg-50 mb-50 mb-lg-0" src="image/collaborative.svg" alt="img">
+                </div>
+                
+            </div>
+
+            <!-- Quick & Easy Process -->
+            <section id="process">
+                <div id="process-title" class="text-center col-9 col-md-8 col-lg-6 col-xl-5 col-xxl-4 mx-auto mb-40 mb-lg-2">
+                    <h2 class="title-lg">Quick & Easy Process</h2>
+                    <p>Do you require some help for your project: Conception workshop, prototyping, marketing strategy, landing page, Ux/UI?</p>
+                </div>
+
+                <div class="container">
+                    <div id="process-content" class="row justify-content-between">
+                    
+                        <div class="process-card col-12 col-lg-6 d-flex align-items-center justify-content-start mb-3">
+                            <img class="user" src="image/process-user-1.svg" alt="user">
+                            <img class="message align-self-center align-self-lg-start ms-3" src="image/process-text-1.svg" alt="message">
+                        </div>
+                    
+                        <div class="process-card col-12 col-lg-6 d-flex align-items-center justify-content-end mb-3 order-last order-lg-0">
+                            <img class="user order-last" src="image/process-user-2.svg" alt="user">
+                            <img class="message align-self-center me-3" src="image/process-text-2.svg" alt="message">
+                        </div>
+                    
+                        <div class="process-card col-12 col-lg-6 d-flex align-items-center justify-content-end justify-content-lg-start mb-3">
+                            <img class="user order-last" src="image/process-user-3.svg" alt="user">
+                            <img class="message align-self-center ms-3" src="image/process-text-3.svg" alt="message">
+                        </div>
+                    
+                        <div class="process-card col-12 col-lg-6 d-flex align-items-center justify-content-start justify-content-lg-end mb-3">
+                            <img class="user" src="image/process-user-4.svg" alt="user">
+                            <img class="message align-self-center ms-3" src="image/process-text-4.svg" alt="message">
+                        </div>
+                        
+                    </div>
+                    <div class="mt-5">
+                        <a href="#" class="process-btn mx-auto">Contact our expert</a>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
+                
+                <!-- Contents Strategies -->
+                <section id="strategies">
+                    <div id="strategies-title" class="text-start mb-30">
+                        <h2 class="title-xl mb-8">Contents Strategies</h2>
+                        <p class="text-lg font-500">We focus on ergonomics and meeting you where you work. It's only a keystroke away. </p>
+                    </div>
+
+                    <div id="strategies-content" class="row justify-content-center justify-content-lg-between">
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                            <div class="strategies-card">
+                                <div class="image image-1"></div>
+                                <div class="content">
+                                    <p class="text-lg">By <b class="author">Wahid Ari</b> |  03 March 2019</p>
+                                    <h3 class="title-md">Increasing Prosperity With Positive Thinking</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                            <div class="strategies-card">
+                                <div class="image image-2"></div>
+                                <div class="content">
+                                    <p class="text-lg">By <b class="author">Wahid Ari</b> |  03 March 2019</p>
+                                    <h3 class="title-md active">Motivation Is The First Step To Success</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="strategies-card">
+                                <div class="image image-3"></div>
+                                <div class="content">
+                                    <p class="text-lg">By <b class="author">Wahid Ari</b> |  03 March 2019</p>
+                                    <h3 class="title-md">Success Steps For Your Personal Or Business</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <ul class="slider-dots d-none d-lg-flex">
+                        <li></li>
+                        <li class="active"></li>
+                        <li></li>
+                    </ul>
+                </section>
+
+                <!-- Price Table -->
+                <section id="price-table">
+                    <div id="price-table-title" class="mb-50 text-center">
+                        <h1 class="title-xl">Price Table</h1>
+                        <p class="text-lg font-500">We offer competitive price</p>
+                    </div>
+
+                    <div id="price-table-content" class="row justify-content-center justify-content-lg-between">
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                            <div class="price-card text-center">
+                                <span class="card-title title-md mb-8">Free</span>
+                                <p class="text-lg font-400 lh-5 mb-16">Brief price description</p>
+                                <span class="price">0</span>
+                                <ul class="price-card-list">
+                                    <li>Only 2 Op erators</li>
+                                    <li>Notifications</li>
+                                    <li>Landing Pages</li>
+                                </ul>
+                                
+                                <a href="#" class="btn-price mx-auto">Order Now</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0 order-md-last order-lg-0">
+                            <div class="price-card text-center active">
+                                <span class="card-title title-md mb-8">Standard</span>
+                                <p class="text-lg font-400 lh-5 mb-16">Brief price description</p>
+                                <span class="price">5</span>
+                                <ul class="price-card-list">
+                                    <li>5+ Operators</li>
+                                    <li>Notifications</li>
+                                    <li>Landing Pages</li>
+                                </ul>
+                                
+                                <a href="#" class="btn-price mx-auto active">Order Now</a>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                            <div class="price-card text-center">
+                                <span class="card-title title-md mb-8">Premium</span>
+                                <p class="text-lg font-400 lh-5 mb-16">Brief price description</p>
+                                <span class="price">10</span>
+                                <ul class="price-card-list">
+                                    <li>10+ Operators</li>
+                                    <li>Notifications</li>
+                                    <li>Landing Pages</li>
+                                </ul>
+                                
+                                <a href="#" class="btn-price mx-auto">Order Now</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+
+                <!-- What Clients Say -->
+                <section id="clients">
+                    <div id="clients-title" class="text-center mb-50 mx-auto col-8 col-md-8 col-lg-7 col-xl-6 col-xxl-5 ">
+                        <h2 class="title-xl">
+                            What Clients Say
+                        </h2>
+                        <p class="text-lg font-500">
+                            Problems trying to resolve the conflict between 
+                            the two major realms of Classical physics: Newtonian mechanics
+                        </p>
+                    </div>
+
+                    <div id="clients-content" class="row justify-content-lg-between justify-content-center">
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0s">
+                            <div class="clients-card">
+                                <ul class="stars mb-16">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star"></i></li>
+                                </ul>
+                                <p class="text-lg mb-16 lh-2">Product helps you see how many 
+                                    more days you need to work to 
+                                    reach your financial goal.</p>
+                                    <div class="clients-user-wrap d-flex align-items-center">
+                                        <img src="image/clients-user-1.svg" alt="photo">
+                                        <span class="client-user">
+                                            <span class="name">Wahid Ari</span><br>
+                                            <span class="job">Designer</span>
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0s">
+                            <div class="clients-card">
+                                <ul class="stars mb-16">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star"></i></li>
+                                </ul>
+                                <p class="text-lg mb-16 lh-2">Product helps you see how many 
+                                    more days you need to work to 
+                                    reach your financial goal.</p>
+                                    <div class="clients-user-wrap d-flex align-items-center">
+                                        <img src="image/clients-user-2.svg" alt="photo">
+                                        <span class="client-user">
+                                            <span class="name">Wahid Ari</span><br>
+                                            <span class="job">Designer</span>
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 mb-4 mb-lg-0s">
+                            <div class="clients-card">
+                                <ul class="stars mb-16">
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star"></i></li>
+                                </ul>
+                                <p class="text-lg mb-16 lh-2">Product helps you see how many 
+                                    more days you need to work to 
+                                    reach your financial goal.</p>
+                                    <div class="clients-user-wrap d-flex align-items-center">
+                                        <img src="image/clients-user-3.svg" alt="photo">
+                                        <span class="client-user">
+                                            <span class="name">Wahid Ari</span><br>
+                                            <span class="job">Designer</span>
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+            </div>
+
+        </main>
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="footer-bar row justify-content-center text-center text-lg-start">
+                    
+                    <div class="col-10 col-lg-3 mb-5 mb-lg-0">
+                        <span class="d-flex align-items-center justify-content-center justify-content-lg-start footer-logo">
+                            <img src="image/logo-icon.svg" alt="logo-icon">
+                            <h1>Product</h1>
+                        </span>
+                        <ul class="footer-sm justify-content-center justify-content-lg-start">
+                            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+                            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-10 col-lg-3 mb-5 mb-lg-0">
+                        <h3 class="footer-titles">Resource</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Blogs</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-10 col-lg-3 mb-5 mb-lg-0">
+                        <h3 class="footer-titles">Legal Stuff</h3>
+                        <ul class="footer-links">
+                            <li><a href="#">Disclaimer</a></li>
+                            <li><a href="#">Financing</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-10 col-lg-3 mb-5 mb-lg-0">
+                        <h3 class="footer-titles">
+                            knowing you're always on the best energy deal. 
+                        </h3>
+                        
+                        <form class="footer-form">
+                            <input type="email" name="email" id="email">
+                            <button class="btn-footer" type="submit">Sign up Now</button>
+                        </form>
+                    </div>
+
+                    <div class="copyright col-12 text-center mb-3">
+                        <p class="text-lg lh-3">Made With Love By Figmaland All Right Reserved 
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    </body>
+
+    </html>

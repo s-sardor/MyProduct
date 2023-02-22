@@ -1,0 +1,223 @@
+
+@media (max-width:576px) {
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .text-xs-center {
+        text-align: center;
+    }
+}
+
+@media (min-width:500px) {
+
+  #strategies-content > * {
+      padding-right: calc(var(--bs-gutter-x) * 3.5);
+      padding-left: calc(var(--bs-gutter-x) * 3.5);
+  }
+}
+
+
+
+@media (min-width: 576px) {
+
+  #price-table-content > * {
+      padding-right: calc(var(--bs-gutter-x) * 3rem);
+      padding-left: calc(var(--bs-gutter-x) * 3rem);
+  }
+
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .text-sm-center {
+        text-align: center;
+    }
+
+    .w-sm-50 {
+        width: 50% !important;
+    }
+
+    .w-sm-55 {
+      width: 55% !important;
+    }
+    
+    .w-sm-60 {
+      width: 60% !important;
+    }
+    
+    .w-sm-65 {
+      width: 65% !important;
+    }
+    
+    .w-sm-70 {
+      width: 70% !important;
+    }
+    
+    .w-sm-75 {
+      width: 75% !important;
+    }
+}
+
+
+
+@media (min-width: 768px) {
+
+  #strategies-content > * {
+      padding-right: calc(var(--bs-gutter-x) * 0.5);
+      padding-left: calc(var(--bs-gutter-x) * 0.5);
+  }
+
+  #price-table-content > * {
+      padding-right: calc(var(--bs-gutter-x) * 1);
+      padding-left: calc(var(--bs-gutter-x) * 1);
+  }
+
+    .text-md-center {
+        text-align: center;
+    }
+
+    .w-md-50 {
+        width: 50% !important;
+    }
+
+    .w-md-55 {
+      width: 55% !important;
+    }
+    
+    .w-md-60 {
+      width: 60% !important;
+    }
+    
+    .w-md-65 {
+      width: 65% !important;
+    }
+    
+    .w-md-70 {
+      width: 70% !important;
+    }
+    
+    .w-md-75 {
+      width: 75% !important;
+    }
+    
+}
+
+
+
+@media (min-width: 992px) {
+
+  #price-table-content > * {
+      padding-right: calc(var(--bs-gutter-x) * 0.6);
+      padding-left: calc(var(--bs-gutter-x) * 0.6);
+  }
+
+    .text-lg-center {
+        text-align: center;
+    }
+
+    .w-lg-50 {
+        width: 50% !important;
+    }
+
+    .w-lg-55 {
+        width: 55% !important;
+    }
+    
+    .w-lg-60 {
+      width: 60% !important;
+    }
+    
+    .w-lg-65 {
+      width: 65% !important;
+    }
+    
+    .w-lg-70 {
+      width: 70% !important;
+    }
+    
+    .w-lg-75 {
+      width: 75% !important;
+    }
+    
+}
+
+
+
+@media (min-width: 1200px) {
+
+  #price-table-content > * {
+      padding-right: calc(var(--bs-gutter-x) * 1.3);
+      padding-left: calc(var(--bs-gutter-x) * 1.3);
+  }
+
+    .text-xl-center {
+        text-align: center;
+    }
+
+    .w-xl-50 {
+        width: 50% !important;
+    }
+
+    .w-xl-55 {
+      width: 55% !important;
+    }
+    
+    .w-xl-60 {
+      width: 60% !important;
+    }
+    
+    .w-xl-65 {
+      width: 65% !important;
+    }
+    
+    .w-xl-70 {
+      width: 70% !important;
+    }
+    
+    .w-xl-75 {
+      width: 75% !important;
+    }
+    
+}
+
+
+
+@media (min-width: 1400px) {
+
+  #price-table-content > * {
+      padding-right: calc(var(--bs-gutter-x) * 2);
+      padding-left: calc(var(--bs-gutter-x) * 2);
+  }
+
+    .text-xxl-center {
+        text-align: center;
+    }
+
+    .w-xxl-50 {
+        width: 50% !important;
+    }
+
+    .w-xxl-55 {
+      width: 55% !important;
+    }
+    
+    .w-xxl-60 {
+      width: 60% !important;
+    }
+    
+    .w-xxl-65 {
+      width: 65% !important;
+    }
+    
+    .w-xxl-70 {
+      width: 70% !important;
+    }
+    
+    .w-xxl-75 {
+      width: 75% !important;
+    }
+}
